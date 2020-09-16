@@ -1,0 +1,35 @@
+﻿body {
+    font-family: Gisha;
+    /*background-color: #f5f7dd;*/
+    margin-bottom:50px;
+}
+li {
+    text-align: right;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+table,tr,td{
+    border:1px double black;
+}
+th {
+    background-color: #cbe9ff;
+    border: 1px double black;
+}
+h1 {
+    text-shadow: 2px 2px #ffd800;
+    color: #f7a412;
+}
+@media screen and (max-width:700px)
+{
+    table{font-size:50%;}
+    #myiframe {font-size: 70%;}
+
+}
+@media screen and (max-width:350px)
+{
+    #Instructions {font-size: 36pt;}
+}
+.side{
+    float:left;
+    margin-left:100px;
+}

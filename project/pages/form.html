@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>הרשמה לטיול</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="../style/StyleSheetheader.css" rel="stylesheet" />
+    <link href="../style/StyleSheetform.css" rel="stylesheet" />
+</head>
+<body>
+    <form>
+        <div id="p"><img src="../images/22052019142858A.png" width="400" height="200" /></div>
+        <h1 class="display-3">הרשמה לטיול מאורגן</h1>
+
+        <a href="header.html">דף הבית</a>
+        <div class="container-fluid" style="margin-top:30px;">
+        <div class="row">
+            <div class="col-md-12 col-xl-6">
+                <table style="width:90%;">
+                    <tr>
+                        <th>ארץ</th>
+                        <th>ראשון-שלישי</th>
+                        <th>ראשון-חמישי</th>
+                        <th>חמישי-שני</th>
+                    </tr>
+                    <tr>
+                        <th>אמריקה</th>
+                        <td>300$</td>
+                        <td>1450$</td>
+                        <td>480$</td>
+                    </tr>
+                    <tr>
+                        <th>אנגליה</th>
+                        <td>430$</td>
+                        <td>990$</td>
+                        <td>360$</td>
+                    </tr>
+                    <tr>
+                        <th>בלגיה</th>
+                        <td>550$</td>
+                        <td>1260$</td>
+                        <td>670$</td>
+                    </tr>
+                    <tr>
+                        <th>גרמניה</th>
+                        <td>480$</td>
+                        <td>1600$</td>
+                        <td>760$</td>
+                    </tr>
+                    <tr>
+                        <th>סין</th>
+                        <td>600$</td>
+                        <td>1300$</td>
+                        <td>550$</td>
+                    </tr>
+                    <tr>
+                        <th>צרפת</th>
+                        <td>350$</td>
+                        <td>800$</td>
+                        <td>620$</td>
+                    </tr>
+
+                </table>
+                <br />
+
+                <ul>
+                    <li>
+                        בחר מסלול:<select>
+                            <option>ארה"ב</option>
+                            <option>אנגליה</option>
+                            <option>בלגיה</option>
+                            <option>גרמניה</option>
+                            <option>סין</option>
+                            <option>צרפת</option>
+                        </select>
+                    </li>
+
+                    <li >שם פרטי:<input type="text" name="first" class="side"/></li>
+                    <li>שם משפחה:<input type="text" name="last" class="side"/></li>
+                    <li>מס' דרכון:<input type="text" name="passport" class="side"/></li>
+                    <li>כתובת מייל:<input type="email" name="mail" class="side"/></li>
+                    <li>חודש:<input type="month" name="mon" class="side"/></li>
+                    <li>צילום דרכון: <input type="file" id="in" name="picture_of_passport" class="side" style="margin-left:-20%;"/></li>
+                    <li>מס פלאפון:<input type="tel" pattern="[0-9]{10}" name="tel" class="side"/></li>
+                    <li>מס משתתפים:<input type="number" min="1" name="num" class="side"/></li>
+                    <li>הערות והארות:</li>
+                    <li><textarea cols="30" rows="5" class="side"></textarea></li>
+                </ul>
+            </div>
+            <div class="col-md-12 col-xl-6"><iframe id="darcon" src="sales.html" width="90%"  height="1100"></iframe></div>
+        </div>
+        </div>
+        <button type="submit">שלח</button>
+        <button type="reset">ביטול</button>
+    </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+﻿body {
+    font-family: Gisha;
+    /*background-color: #fef8ce;*/
+    /*background-color: #f5f7dd;*/
+    
+}
+h1 {
+    margin-bottom: 30px;
+    text-shadow:2px 2px yellow;
+    color:#f7a412;
+    /*margin-left:140px;
+    margin-right:130px;*/
+}
+#menu {
+    margin: 20px 0px;
+    background: #293974;
+    opacity: 0.7;
+    border-radius: 25%;
+}
+
+li{
+    text-align:right;
+}
+#reverse {
+    float: left;
+    position: fixed;
+    left: 20px;
+    overflow: hidden;
+    bottom: 20px;
+    background:none;
+    /*background-color: #fef8ce;*/
+    border:none;
+}
+#myiframe{
+    text-align:right;
+    margin-right:20px;
+}
+span {
+    color: #004085;
+}
+#up {
+    background-color: #d1e0ed;
+}
